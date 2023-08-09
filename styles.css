@@ -1,0 +1,359 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.parent-div {
+    display: flex;
+    margin: 20px auto;
+    width: 90%;
+}
+
+.div-left {
+    width: 30%;
+    height: 90vh;
+    overflow-y: scroll;
+    padding: 5px;
+    transition: 0.4s ease-in-out;
+
+}
+
+
+.div-right {
+    width: 70%;
+    height: 90vh;
+    background-color: aliceblue;
+    overflow-y: scroll;
+    scroll-behavior: smooth ;
+}
+
+.left-title {
+    height: 50px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px tomato;
+    margin-top: 10px;
+    color: black;
+    /* transition: 0.4s ease-in-out; */
+
+}
+
+.left-title:hover {
+    background-color: tomato;
+    color: white;
+    animation: updown;
+    animation-duration: 0.1s;
+}
+
+@keyframes updown {
+    0% {
+        transform: rotate(-2deg);
+    }
+    /* 50% {
+        transform: rotate(0deg);
+    } */
+    100% {
+        transform: rotate(2deg);
+    }
+}
+
+
+.right-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 500px;
+    background-color: white;
+    margin: 10px;
+    /* border: 1px solid tomato; */
+    border-radius: 5px;
+    box-shadow: tomato 0px 0px 10px;
+    padding: 10px;
+    margin-top: 20px;
+   
+}
+
+.right-1-box {
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+}
+
+.right-2-box {
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+    border: 5px solid black ;
+}
+
+.right-3-box {
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+    border-style: dotted;
+}
+
+.right-4-box1 {
+    height: 200px;
+    width: 200px;
+    background-color: tomato;
+    border: 2px solid yellow;
+}
+
+.right-4-box2 {
+    height: 100px;
+    width: 100px;
+    background-color: skyblue;
+    margin-top: 25px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.right-5-box1 {
+    height: 200px;
+    width: 200px;
+    background-color: tomato;
+    border: 2px solid yellow;
+}
+
+.right-5-box2 {
+    height: 100px;
+    width: 100px;
+    background-color: skyblue;
+    margin: 25px 10px 10px 45px;
+}
+
+.right-6-box1 {
+    height: 200px;
+    width: 200px;
+    background-color: tomato;
+    border: 2px solid yellow;
+}
+
+.right-6-box2 {
+    height: 100px;
+    width: 100px;
+    background-color: skyblue;
+    margin: 50px auto;
+}
+
+.right-7-box1 {
+    height: 200px;
+    width: 200px;
+    background-color: tomato;
+    border: 2px solid yellow;
+}
+
+.right-7-box2 {
+    height: 100px;
+    width: 100px;
+    background-color: skyblue;
+    padding: 10px;
+}
+
+.right-8-box1 {
+    height: 200px;
+    width: 200px;
+    background-color: tomato;
+    border: 2px solid yellow;
+}
+
+.right-8-box2 {
+    height: 100px;
+    width: 100px;
+    background-color: skyblue;
+    padding: 10px;
+    font-style: oblique;
+    font-weight: 900;
+    color: black;
+}
+
+.right-9-box-1 {
+    height: 200px;
+    width: 200px;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+.right-9-box-1 ul {
+    list-style-type: circle;
+}
+
+.right-9-box-2 {
+    height: 200px;
+    width: 200px;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+.right-9-box-2 ol {
+    list-style-type: lower-greek;
+}
+
+.right-10-box {
+    height: 100px;
+    width: 100px;
+    background-color: skyblue;
+    padding: 10px;
+    transition: 0.4s ease-in-out;
+}
+
+.right-10-box:hover {
+    background-color: tomato;
+}
+
+#table-11 table, th, td {
+    border: 1px solid tomato;
+    padding: 5px;
+    text-align: left;
+}
+
+.right-13-box {
+    width: 500px;
+    height: 100px;
+    background-image: linear-gradient(tomato, yellow);
+}
+
+.btn-css {
+    height: 50px;
+    width: 137px;
+    border: 5px solid tomato;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: 700;
+    background: skyblue;
+    font-size: large;
+    color: red;
+    margin-left: 20px;
+}
+
+.right-15-box {
+    height: 100px;
+    width: 100px;
+    background-color: skyblue;
+    padding: 10px;
+    transition: 0.4s ease-in-out;
+}
+
+.right-15-box:hover {
+    background-color: tomato;
+}
+
+.right-16-box-1 {
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+   transform: rotate(20deg);
+}
+
+.right-16-box-2 {
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+   transform: skewY(20deg);
+}
+
+.right-16-box-3 {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+   transform: scaleY(1.5);
+}
+
+
+.flag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rectangle {
+    width: 500px;
+    height: 300px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: _animate_ 2s infinite;
+    border: 1px solid black;
+}
+
+
+
+.circle {
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+@keyframes _animate_ {
+    0% {
+        background-color: green;
+    }
+    50% {
+        background-color: white;
+    }
+    0% {
+        background-color: green;
+    }
+}
+
+
+.right-18-box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid blue;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+.right-19-parent {
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-19-child {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: tomato;
+    padding: 10px;
+  }
+  .grid-item {
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
